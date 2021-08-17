@@ -56,23 +56,23 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello there, My Name is [Sung Jin-Woo](https://telegra.ph/file/f48f5be2c7ed4600d1002.mp4)
-I am a Anime Themed Group managing bot from Solo leveling
+Hello there, My Name is [Valt Aoi](https://t.me/@Valt_AoiBot)
+I am a Powerful Group managing bot
 I will help you manage your group.
 ✏️ Click Below help button or send /help to know all my Commands.
 """
 buttons = [
     [        
         InlineKeyboardButton(
-        text="☑️Add Sung Jin-woo to your Group", url="t.me/SungJinWooRobot?startgroup=true"
+        text="Add me to your group", url="t.me/Valt_Aoi?startgroup=true"
         ),
     ],
     [        
         InlineKeyboardButton(
-        text="🚔 Support", url=f"https://t.me/{SUPPORT_CHAT}"
+        text="🤖 Updates Channel", url=f"https://t.me/APBotz"
         ),
         InlineKeyboardButton(
-        text="📚 Solo Leveling", url=f"https://t.me/Solo_Leveling_Webtoon"
+        text="👥 Support Group", url=f"https://t.me/APSupportGroup"
         ),
     ],
     [
@@ -88,8 +88,7 @@ HELP_STRINGS = """
 *All commands can either be used with / or !.*  
 """
 
-DONATE_STRING = """donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """I don't want donation this bot is free for all."""
 
 IMPORTED = {}
 MIGRATEABLE = []
