@@ -64,7 +64,7 @@ I will help you manage your group.
 buttons = [
     [        
         InlineKeyboardButton(
-        text="Add me to your group", url="t.me/Valt_Aoi?startgroup=true"
+        text="Add me to your group", url="t.me/Valt_AoiBot?startgroup=true"
         ),
     ],
     [        
@@ -85,6 +85,7 @@ HELP_STRINGS = """
 *Main Commands*[:](https://telegra.ph/file/cdc84cf96c58eb4a01dfa.png)
 ✏️ /help: PM's you this message.
 ✏️ /start: You have already used it.
+✏️ /help <module name>: PM's you info about that module.
 *All commands can either be used with / or !.*  
 """
 
