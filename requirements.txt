@@ -31,6 +31,7 @@ alphabet_detector
 pyrate-limiter
 gtts
 nekos.py
+tinydb~=4.3.0
 fontTools
 typing
 telegraph
