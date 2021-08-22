@@ -36,6 +36,7 @@ typing
 telegraph
 tswift
 cachetools
+PySocks==1.7.1
 pyowm
 tabulate
 parsel
@@ -59,6 +60,7 @@ bs4
 youtube_search_python
 search_engine_parser
 asyncio
+async-lru==1.0.2
 bing_image_downloader
 python-arq
 motor
