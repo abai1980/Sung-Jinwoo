@@ -88,3 +88,7 @@ async def app_search(event):
         await event.edit("No result found in search. Please enter **Valid app name**")
     except Exception as err:
         await event.edit("Exception Occured:- " + str(err))
+
+__help__ = """
+ • `/app <app name> which app details you want.
+ """
